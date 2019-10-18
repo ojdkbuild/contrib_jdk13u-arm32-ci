@@ -85,7 +85,7 @@ $D mv jdk13u-${OJDK_TAG} jdk13u
 # build
 $D mkdir jdkbuild
 $D bash -c "cd jdkbuild && \
-    bash /opt/jdk12u/configure \
+    bash /opt/jdk13u/configure \
     --openjdk-target=arm-linux-gnueabihf \
     --with-jvm-variants=server \
     --with-sysroot=/opt/sysroot/ \
