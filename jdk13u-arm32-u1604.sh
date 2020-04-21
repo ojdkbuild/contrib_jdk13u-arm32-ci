@@ -99,13 +99,16 @@ $D bash -c "cd jdkbuild && \
     --with-zlib=bundled \
     --with-boot-jdk=/opt/bootjdk/ \
     --with-build-jdk=/opt/bootjdk/ \
-    --with-cacerts-file=/opt/cacerts \
     --with-freetype-include=/opt/sysroot/usr/include/freetype2/ \
     --with-freetype-lib=/opt/sysroot/usr/lib/arm-linux-gnueabihf/ \
     --with-version-pre='' \
     --with-version-build=${OJDK_BUILD} \
     --with-version-opt='' \
     --with-vendor-version-string=19.9 \
+    --with-vendor-name=ojdkbuild \
+    --with-vendor-url=https://github.com/ojdkbuild \
+    --with-vendor-bug-url=https://github.com/ojdkbuild/ojdkbuild/issues \
+    --with-vendor-vm-bug-url=https://github.com/ojdkbuild/ojdkbuild/issues \
     --with-log=info"
 $D bash -c "cd jdkbuild && \
     make images"
