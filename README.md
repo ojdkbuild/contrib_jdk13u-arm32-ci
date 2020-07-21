@@ -1,7 +1,7 @@
 OpenJDK 13 ARM32 builds
 =======================
 
-[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk13u-arm32-ci.svg?branch=jdk-13.0.3%2B3)](https://travis-ci.org/ojdkbuild/contrib_jdk13u-arm32-ci/builds)
+[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk13u-arm32-ci.svg?branch=jdk-13.0.4%2B8)](https://travis-ci.org/ojdkbuild/contrib_jdk13u-arm32-ci/builds)
 
 OpenJDK 13 ARM32 builds done on Travis CI - [downloads](https://github.com/ojdkbuild/contrib_jdk13u-arm32-ci/releases).
 
